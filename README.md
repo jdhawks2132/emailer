@@ -1,24 +1,29 @@
-# README
+# Emailer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this project is to create an email application that manages contact lists, the creation of templates using MJML, and the sending of emails.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+- Ruby 3.3.0
+- Rails 7.1.3
+- MySQL Database
+- Redis Server
+- MJML
+- Yarn
 
-* Database creation
+### Installing
 
-* Database initialization
+1. Clone the repository
+2. Run `bundle install` to install the required gems
+3. Run `yarn install` to install the required packages
+4. Run `rails db:create` to create the database
+5. Run `rails db:migrate` to run the migrations
 
-* How to run the test suite
+### Running the application
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Run the server using `bin/dev` (requires foreman gem)
+2. Access the application at `http://localhost:3000`
